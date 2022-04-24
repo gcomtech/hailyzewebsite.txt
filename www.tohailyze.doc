@@ -1,0 +1,73 @@
+<html>
+{{{{
+{
+<head>
+<title> "hailyzes_software" </title></head>}
+{
+<body>
+{
+<[display]>
+{
+{{{<[display]>= <[paragraph]>}
+{
+{{<[paragraph]>=[[<[paragraph1]>]/[<[paragraph2]>]]=<font>ariel</font> = <color> "pink" </color> visible
+
+[<[/paragraph1]>]= <title> "[games]" = <font> "ariel" </font> = <color> "white" </color></title> =<[game_selection]> 
+
+[<[paragraph2]>]= "[communication]"=<title>"Messages"<font>ariel</font>=  <color>white</color></title>= <[communication_options]>
+
+<[game_selection]>= <title> "[default_selection]" </title>= <[default]>= <default_command>
+
+<default_command>=<[action]>
+
+<[<action>]>=<[click]>=<[command_on]>/<[command_off]>
+
+<[command_on]>= [select]
+<[command_off]>=[deselect]
+
+[<select>]=[options]=[<a>game1,<b>game2,<c>game3,<d>game4,<e>game5,<f>game6]=[command]=<[on]/[off]>/[null]>
+
+
+[deselct]=[null]=[no_command]=<blank>
+
+[<select>]= <[on]> = <"[automatic_download] <link>"<name>"</link>
+
+<[variables]>= <[content_options> 
+{{
+<[content_options]>=<[games_options]>=<[options]=<a>/<b>/<c>/<d>
+ <["variables"]>=<[options]>= [<[hidden]>]/[<[visible]>
+
+[<variables>]<variable2>=<[<variable_options>]=[<[null]>]/[<[<variable_option1>]>]/[<[<variable_option2>]>]:[<variable_command>]>:[<[command]>][<select_variable_options>]:
+{
+<[variable_options1]>=<["game_icon"]>::[([<game_options1>]/[<game_options2>])]
+{
+{{{<head><"GAMES"></head>]
+{
+{{
+<game_options>
+(<[game_options1]>:[<game>]:[<command>]:[<default>]:<[on/off]>=)
+(<[game_options2]>:[<game>]:[<command>]:[<select>]:[<open>]:[<automatic>:<download>])}}
+{
+{{(<game1>:<[roblox]>:
+<icon></icon>
+<link></link/></game1>)}}
+{
+{{(<game2>:<[kids educational games]>:
+<icon></icon>
+<link></link>
+</game2>)}}
+{
+{(<game3>:<[BarbieMagicalFashionshow]>:
+<icon></icon>
+<link></link>
+</game3>)}}
+{
+{(<game4>:<[barbiemagicaldreamhouse]>:
+<icon></icon>
+<Link></link>
+</game4>)}}
+{
+{(<game5>:<[joypony]>:
+<icon></icon>
+<link></link>)}}
+{
